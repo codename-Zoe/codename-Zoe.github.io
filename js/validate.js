@@ -22,7 +22,7 @@ function validate(event) {
 
   if(long > 180 || long < -180 || isNaN(long)){
     document.querySelector("#long-warning").innerText = "* must be a valid Longitude (-180 to 180)";
-       event.preventDefault();
+    event.preventDefault();
   }
   else{
     document.querySelector("#long-warning").innerText = "*";
