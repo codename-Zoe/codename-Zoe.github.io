@@ -34,6 +34,7 @@ function validate(event) {
       document.querySelector("#long-warning").innerText = "*";
       flag = true;
     }
+    return flag;
   }
 
 // Wait for the window to load, then set up the submit event handler for the form.
